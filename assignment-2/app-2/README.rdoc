@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+About this project
+———————————————————
+Assignment 2:
+Create a new Rails application from scratch with two controllers. Each of the controllers should use a different layout. Each controller should have at least two views. One of your views should use a partial that renders data passed to it. Use the link_to helper at least once in your application.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Project method
+———————————————————
+App-2 includes a two controllers, each with two views. The index home controller view renders a partial to show a side menu. All pages are linked using a link_to helper.
+
