@@ -1,28 +1,11 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+About this project
+———————————————————
+Assignment 1:
+Create a new Rails application from scratch with one controller that has at least three views.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Project method
+———————————————————
+App-1 includes a welcome controller with three views: index, single_view, and profile_view. The two later views are rendered using a link_to helper from the index view.
