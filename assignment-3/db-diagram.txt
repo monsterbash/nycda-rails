@@ -1,0 +1,27 @@
+INSTAGRAM SIMPLE DATABASE DIAGRAM (SEE PNG)
+
+
+CREATE TABLE User (
+  user_id INTEGER PRIMARY KEY,
+  user_name TEXT,
+  user_bio TEXT,
+  followers_count INTEGER,
+  following_count INTEGER,
+  posts_count INTEGER,
+  last_updated NUMERIC
+);
+
+CREATE TABLE Post (
+  post_id INTEGER PRIMARY KEY,
+  posted_at NUMERIC,
+  post_image TEXT,
+  post_text TEXT,
+  user_id INTEGER,
+  user_name TEXT
+);
+
+CREATE TABLE PostMentions (
+  post_id INTEGER PRIMARY KEY,
+  source INTEGER,
+  target INTEGER
+);
