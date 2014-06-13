@@ -1,0 +1,14 @@
+<h1>Edit Your Post</h1>
+
+<%= form_for @post do |f| %>
+	<p>
+	<%= f.label :post_text %>
+	<%= f.text_area_tag :post_text, :size =>"25x10" %>
+	</p>
+	<p> <%= link_to "Delete post", post_path, method: :delete %>
+	</p>
+	<p>
+	<%= f.submit %>
+	</p>
+
+<% end %>

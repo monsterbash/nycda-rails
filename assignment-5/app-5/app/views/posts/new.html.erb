@@ -1,0 +1,14 @@
+<!-- "Logged in as @user" or "Sign in to post" -->
+
+<h1>Write a new post</h1>
+
+<%= form_for @post do |f| %>
+		<p>
+	<%= f.label :post_text %>
+	<%= f.text_field :post_text %>
+	</p>
+	<p>
+	<%= f.submit %>
+	</p>
+
+<% end %>
